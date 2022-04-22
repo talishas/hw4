@@ -1,0 +1,41 @@
+.container{
+    width: 1200px;
+    min-height: 800px;
+    background: silver;
+    margin: 0 auto;
+}
+
+.a{
+    width: 100%;
+    height: 200px;
+    background: grey;
+}
+
+.inner-container{
+    width: 100%;
+    min-height: 600px;
+    background: mediumpurple;
+    display: flex;
+}
+
+.bcdefg-container{
+    width: 900px;
+    height: 600px;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 33.3%;
+    height: 300px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 25%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+
+}
+
+.h{
+    width: 300px;
+    height: 600px;
+    background: aquamarine;
+}
